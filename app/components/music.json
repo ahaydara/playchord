@@ -1,0 +1,40 @@
+{ 
+   Name: " Test Music Craft",
+   "Lines":  [
+      {
+      	Bars: [ 
+          {
+          	//first bar
+          	Notes : [ 
+          	    
+          	    //Notes
+          	    {
+                  Key: "A",
+                  Type: "Minim",
+          		},
+
+          		{
+                  Key: "B",
+                  Type: "Minim",
+          		},
+
+          		{
+                  Key: "B",
+                  Type: "Minim",
+          		}
+          	]
+          },
+          {
+            //second bar
+          },
+          {
+          	//third bar
+          } ,
+          {
+          	//fourth bar
+          }
+      	]
+      }
+   ]
+}
+
