@@ -8,13 +8,17 @@ export default function chart() {
   }
 
   my.width = function(value) {
-    if (!arguments.length) return width;
+    if (!arguments.length) {
+      return width;
+    }
     width = value;
     return my;
   };
 
   my.height = function(value) {
-    if (!arguments.length) return height;
+    if (!arguments.length) {
+      return height;
+    }
     height = value;
     return my;
   };
